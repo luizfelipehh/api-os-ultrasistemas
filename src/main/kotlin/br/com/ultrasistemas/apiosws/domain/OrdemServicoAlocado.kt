@@ -1,5 +1,10 @@
 package br.com.ultrasistemas.apiosws.domain
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize
+import com.fasterxml.jackson.databind.annotation.JsonSerialize
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer
+import java.time.LocalDateTime
 import java.util.*
 import javax.persistence.*
 
@@ -11,8 +16,7 @@ data class OrdemServicoAlocado (
 
         @Id
         @ManyToOne
-        @JoinColumn(name = "OS", referencedColumnName = "OS")
-        @Column(name = "OS")
+        @JoinColumn(name = "OS")
         var os: Int = 0,
 
         @Id
@@ -23,7 +27,9 @@ data class OrdemServicoAlocado (
         var tecnico: Int = 0,
 
         @Column(name = "DATA_ALOCACAO")
-        var data_alocacao: Date? = null,
+        @JsonSerialize(using = ToStringSerializer::class)
+        @JsonDeserialize(using = LocalDateTimeDeserializer::class)
+        var data_alocacao: LocalDateTime?  = null,
 
         @Column(name = "QTD")
         var qtd: Double = 0.0,
