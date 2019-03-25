@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query
 
 interface ParceiroRepository : JpaRepository<Parceiro, Int> {
 
-    @Query(value = "SELECT P.PARCEIRO, UPPER(P.NOME) AS NOME FROM PARCEIROS P ORDER BY 2", nativeQuery = true)
+    @Query(value = "SELECT P.PARCEIRO, UPPER(P.NOME) AS NOME FROM PARCEIROS P WHERE P.IDN_CLIENTE = 'S' ORDER BY 2", nativeQuery = true)
     fun getParceiros(): List<Parceiro>
 }

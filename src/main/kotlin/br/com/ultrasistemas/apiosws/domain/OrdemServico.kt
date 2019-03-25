@@ -1,5 +1,6 @@
 package br.com.ultrasistemas.apiosws.domain
 
+import br.com.ultrasistemas.apiosws.shared.StatusResponse
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer
@@ -16,10 +17,13 @@ data class OrdemServico (
         @Column(name = "OS")
         @SequenceGenerator(name = "GEN_OS", sequenceName = "GEN_OS", allocationSize = 1)
         @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "GEN_OS")
-        var id: Int = 0,
+        var id: Int? = null,
 
         @Column(name = "PARCEIRO")
         var parceiro: Int = 0,
+
+        @Column(name = "CODOPER")
+        var operacao: Int = 0,
 
         @Column(name = "DATA_ABERTURA")
         @JsonSerialize(using = ToStringSerializer::class)
@@ -32,7 +36,7 @@ data class OrdemServico (
         var hora: LocalDateTime?  = null,
 
         @Column(name = "OPERADOR_ABERT")
-        var operador: Int = 0,
+        var operadorAbertura: Int = 0,
 
         @Column(name = "VALOR_PRODUTOS")
         var valor_produtos: Double = 0.0,
@@ -86,12 +90,25 @@ data class OrdemServico (
         var acrescimo_informado: Double = 0.0,
 
         @Column(name = "IDN_LISTAPRODUTOS")
-        var idn_listaprodutos: String = ""
+        var idn_listaprodutos: String = "",
+
+        @OneToMany(cascade = arrayOf(CascadeType.ALL, CascadeType.PERSIST), mappedBy = "os", orphanRemoval = true)
+        var ordemServicoAlocado: List<OrdemServicoAlocado> = ArrayList<OrdemServicoAlocado>()
     )
     {
 
-    @OneToMany(cascade = arrayOf(CascadeType.ALL, CascadeType.PERSIST), mappedBy = "ordemservico", orphanRemoval = true)
-    var ordemServicoAlocado: List<OrdemServicoAlocado> = ArrayList<OrdemServicoAlocado>()
+        fun status() : StatusResponse?{
+            var status : StatusResponse? = null
+
+
+            if(acrescimo_informado < 0.0){
+                status = StatusResponse(false, "O valor do acréscimo não pode ser negativo")
+            }
+
+
+            return status
+        }
+
 
     }
 

@@ -7,8 +7,11 @@ import org.springframework.stereotype.Service
 
 @Service
 class OrdemServicoService(
-   val ordemServicoRepository: OrdemServicoRepository,
-   val ordemServicoAlocado: OrdemServicoAlocado
+   val ordemServicoRepository: OrdemServicoRepository
+//   val ordemServicoAlocado: OrdemServicoAlocado
 ) {
     fun save(os: OrdemServico) = ordemServicoRepository.save(os)
+
+    fun remove(os: OrdemServico) = ordemServicoRepository.delete(os)
+
 }

@@ -16,8 +16,8 @@ data class OrdemServicoAlocado (
 
         @Id
         @ManyToOne
-        @JoinColumn(name = "OS")
-        var os: Int = 0,
+        @JoinColumn(name = "OS", referencedColumnName = "OS")
+        var os: OrdemServico? = null,
 
         @Id
         @Column(name = "SEQ")
@@ -62,11 +62,7 @@ data class OrdemServicoAlocado (
         var liquido: Double = 0.0,
 
         @Column(name = "SERVICO")
-        var servico: Int? = null,
-
-        @Column(name = "OPERADOR")
-        var operador: Int? = null
-
+        var servico: Int? = null
 ){
 
 }
