@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75b7221-a436-4425-80d9-3e9e6925be5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/shared/StatusResponse.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/Operador.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/shared/StatusResponse.kt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/api-os-ws.kotlin_module" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/api-os-ws.kotlin_module" afterPath="$PROJECT_DIR$/target/classes/META-INF/api-os-ws.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/ApiOsWsApplication.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/ApiOsWsApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/ApiOsWsApplicationKt.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/ApiOsWsApplicationKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServico.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServico.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocado.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocado.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocadoPK.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocadoPK.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/Parceiro.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/Parceiro.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/Servico.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/domain/Servico.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/ServicosRepository.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/repository/ServicosRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/OrdemServicoController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/OrdemServicoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/ParceiroRestController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/ParceiroRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/OrdemServicoService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/OrdemServicoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/ParceiroService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/ParceiroService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/ServicoService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/ultrasistemas/apiosws/service/ServicoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/ultrasistemas/apiosws/ApiOsWsApplicationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/ultrasistemas/apiosws/ApiOsWsApplicationTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/ultrasistemas/apiosws/repository/OsRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/ultrasistemas/apiosws/repository/OsRepositoryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/OrdemServico.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/OrdemServico.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocado.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/OrdemServicoAlocado.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/service/OrdemServicoService.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/service/OrdemServicoService.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/ultrasistemas/apiosws/ApiOsWsApplicationTests.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/ultrasistemas/apiosws/ApiOsWsApplicationTests.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OperadorRepository.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,12 +15,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrdemServicoController.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/OrdemServicoController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParceiroRestController.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ParceiroRestController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicoRestController.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicoService.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/service/ServicoService.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -78,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/Operador.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OperadorRepository.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.kt" />
       </list>
     </option>
   </component>
@@ -109,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +183,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="apiosws" type="462c0819:PsiDirectoryNode" />
+              <item name="rest_controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-os-ultrasistemas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-os-ultrasistemas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="apiosws" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api-os-ultrasistemas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api-os-ultrasistemas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="apiosws" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,8 +235,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,7 +397,9 @@
       <option name="presentableId" value="Default" />
       <updated>1553517023350</updated>
       <workItem from="1553517036855" duration="25000" />
-      <workItem from="1553517080528" duration="8424000" />
+      <workItem from="1553517080528" duration="8536000" />
+      <workItem from="1553533064301" duration="1723000" />
+      <workItem from="1553601977505" duration="62000" />
     </task>
     <servers />
   </component>
@@ -400,14 +436,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8449000" />
+    <option name="totallyTimeSpent" value="10346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -420,7 +456,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -433,6 +469,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -452,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,24 +512,6 @@
         <state relative-caret-position="102">
           <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ParceiroRestController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#49#432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,27 +556,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/StatusOperador.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/StatusOperador.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="85" lean-forward="false" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/OrdemServico.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-1071">
           <caret line="13" column="25" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/Operador.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="114" lean-forward="false" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
+        <state relative-caret-position="522">
+          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="e#45#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ServicosRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OrdemServicoRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#49#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/OperadorRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#49#214#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,21 +618,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/repository/ParceiroRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="85" lean-forward="false" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+        <state relative-caret-position="119">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/domain/Operador.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/service/ServicoService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding>
-            <element signature="e#45#167#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/OrdemServicoController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ParceiroRestController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/ultrasistemas/apiosws/rest_controllers/ServicoRestController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
