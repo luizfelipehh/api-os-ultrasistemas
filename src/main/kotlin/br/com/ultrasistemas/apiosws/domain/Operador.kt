@@ -44,7 +44,9 @@ data class Operador (
 
         @Column(name = "PERMITE_ALTERAR_CONCILIADO")
         var permiteAlterarConciliado: String = ""
-
 ){
+    fun checkAcesso(id: Int, senha: String?): Boolean {
+        return this.id == id && this.senha == (if (senha != null && senha?.isEmpty()!!)null else senha)
+    }
 
 }

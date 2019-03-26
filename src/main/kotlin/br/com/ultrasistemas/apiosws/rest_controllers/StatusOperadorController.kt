@@ -1,31 +1,27 @@
 package br.com.ultrasistemas.apiosws.rest_controllers
 
-import br.com.ultrasistemas.apiosws.domain.Servico
 import br.com.ultrasistemas.apiosws.domain.StatusOperador
 import br.com.ultrasistemas.apiosws.service.OperadorService
-import br.com.ultrasistemas.apiosws.service.ServicoService
 import br.com.ultrasistemas.apiosws.shared.StatusResponse
 import org.springframework.web.bind.annotation.RequestHeader
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RestController
+import java.time.LocalDateTime
 
 @RestController
-class ServicoRestController(
-        val servicoService: ServicoService,
-        val operadorService: OperadorService) {
+class StatusOperadorController(val operadorService: OperadorService){
 
-    @RequestMapping("/api-os-ws/servico", method = arrayOf(RequestMethod.GET))
-    fun servicos(@RequestHeader("operador") operador: Int,
-                 @RequestHeader("senha") senha: String): StatusResponse{
+    @RequestMapping("/api-ultra-ws/checkStatus", method = arrayOf(RequestMethod.GET))
+    fun checkStatus(@RequestHeader("operador") operador: Int,
+                    @RequestHeader("senha") senha: String): StatusResponse {
 
         var statusOperador: StatusOperador? = operadorService.checkDadosOperador(operador, if (senha?.isEmpty()) null else senha)
-        if (statusOperador?.valid!!){
-            var result: List<Servico> = servicoService?.getServicos()
+        if (statusOperador?.valid!!) {
             return StatusResponse(true, "OK")
+        } else {
+            return StatusResponse(true, "Serviço não autorizado! ${statusOperador?.descricao!!}", null)
         }
-        return StatusResponse(false, statusOperador!!.descricao!!)
+
     }
-
-
 }
