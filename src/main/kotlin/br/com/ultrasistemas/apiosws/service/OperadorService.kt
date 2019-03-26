@@ -8,14 +8,15 @@ import org.springframework.stereotype.Service
 @Service
 class OperadorService(val operadorRepository: OperadorRepository) {
 
-    fun getOperador() = operadorRepository.getOperadores()
+    fun getOperador(operador : Int) = operadorRepository.getOperador(operador)
 
-    fun checkDadosOperador(parceiro: Int, senha: String?): StatusOperador{
-        var operador : Operador? = operadorRepository.getOperador(parceiro)
+    fun checkDadosOperador(id: Int, senha: String? ): StatusOperador{
+        var operador : Operador? = operadorRepository.getOperador(id)
 
-        var statusOperador: StatusOperador = StatusOperador(parceiro, senha, operador , null, null )
+        var statusOperador: StatusOperador = StatusOperador(id, senha, operador, null, null )
         statusOperador.check()
 
         return statusOperador
     }
+
 }

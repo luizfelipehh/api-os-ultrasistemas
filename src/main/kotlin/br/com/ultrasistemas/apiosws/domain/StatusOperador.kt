@@ -1,9 +1,7 @@
 package br.com.ultrasistemas.apiosws.domain
 
-import java.time.format.DateTimeFormatter
-
 data class StatusOperador(val id: Int, val senha: String?, val operador: Operador?,
-                          var valid: Boolean?, var descricao: String? = "") {
+                          var valid: Boolean?, var descricao: String? = ""){
     fun check() {
         valid = true
 
@@ -14,7 +12,7 @@ data class StatusOperador(val id: Int, val senha: String?, val operador: Operado
 
         if (operador == null) {
             valid = false
-            descricao = "O consultor ${id} não foi encontrado no sistema!"
+            descricao = "O consultor ${operador} não foi encontrado no sistema!"
         }
     }
 }

@@ -1,5 +1,6 @@
 package br.com.ultrasistemas.apiosws.domain
 
+import java.time.LocalDate
 import javax.persistence.Column
 import javax.persistence.Entity
 import javax.persistence.Id
@@ -43,7 +44,13 @@ data class Operador (
         var bloquearAcessoTitulosFunc: String = "",
 
         @Column(name = "PERMITE_ALTERAR_CONCILIADO")
-        var permiteAlterarConciliado: String = ""
+        var permiteAlterarConciliado: String = "",
+
+        @Column(name = "CODFILIAL_TRABALHO")
+        var codFilial: Int = 0,
+
+        @Column(name = "DATA_BAIXA")
+        var dataBaixa: LocalDate? = null
 ){
     fun checkAcesso(id: Int, senha: String?): Boolean {
         return this.id == id && this.senha == (if (senha != null && senha?.isEmpty()!!)null else senha)

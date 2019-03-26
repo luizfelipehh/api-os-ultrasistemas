@@ -17,15 +17,17 @@ class ServicoRestController(
 
     @RequestMapping("/api-os-ws/servico", method = arrayOf(RequestMethod.GET))
     fun servicos(@RequestHeader("operador") operador: Int,
-                 @RequestHeader("senha") senha: String): StatusResponse{
+                 @RequestHeader("senha") senha: String): StatusResponse {
 
+
+//        var statusConsultor: StatusConsultor? = consultorService.checkDadosConsultor(consultor, if (senha?.isEmpty()) null else senha
         var statusOperador: StatusOperador? = operadorService.checkDadosOperador(operador, if (senha?.isEmpty()) null else senha)
-        if (statusOperador?.valid!!){
+        if (statusOperador?.valid!!) {
             var result: List<Servico> = servicoService?.getServicos()
             return StatusResponse(true, "OK")
+        } else {
+            return StatusResponse(false, statusOperador!!.descricao!!)
         }
-        return StatusResponse(false, statusOperador!!.descricao!!)
+
     }
-
-
 }

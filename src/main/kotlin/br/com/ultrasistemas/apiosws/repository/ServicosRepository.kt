@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional
 
 interface ServicosRepository : JpaRepository<Servico, Int> {
 
-    @Transactional(readOnly = true)
+    //@Transactional(readOnly = true)
     @Query(value = "SELECT O.SERVICO, O.DESCRICAO, O.VALOR_AV, O.VALOR_AP FROM OS_SERVICOS O", nativeQuery = true)
     fun getServicos(): List<Servico>
 }

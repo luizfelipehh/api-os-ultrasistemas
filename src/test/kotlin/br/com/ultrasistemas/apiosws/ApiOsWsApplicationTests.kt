@@ -3,6 +3,8 @@ package br.com.ultrasistemas.apiosws
 import br.com.ultrasistemas.apiosws.domain.OrdemServico
 import br.com.ultrasistemas.apiosws.domain.OrdemServicoAlocado
 import br.com.ultrasistemas.apiosws.repository.OrdemServicoRepository
+import br.com.ultrasistemas.apiosws.repository.ParceiroRepository
+import br.com.ultrasistemas.apiosws.repository.ServicosRepository
 import com.google.gson.GsonBuilder
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -18,6 +20,12 @@ class ApiOsWsApplicationTests {
 
     @Autowired
     private val ordemRepository: OrdemServicoRepository? = null
+
+    @Autowired
+    private val parceiroRepository: ParceiroRepository? = null
+
+    @Autowired
+    private val servicoRepository: ServicosRepository? = null
 
 
         @Test
@@ -49,5 +57,23 @@ class ApiOsWsApplicationTests {
             print("OS ID: " + ordemSaved?.id)
         }
 
-
+    @Test
+    fun testGetParceiros() {
+        println("---------------------------------")
+        println("Parceiros")
+        parceiroRepository?.getParceiros()?.forEach { parceiro -> println(parceiro.toString()) }
     }
+
+
+    @Test
+    fun testGetServicos() {
+        println("---------------------------------")
+        println("Parceiros")
+        servicoRepository?.getServicos()?.forEach { servico -> println(servico.toString()) }
+    }
+
+
+
+
+
+}
